@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Col, Row, Container } from "../../components/Grid";
+// import { Link } from "react-router-dom";
+import {Container} from "../../components/Grid";
 import API from "../../utils/API";
 import "./Adventures.css";
+import Well from "../../components/Well";
 
 class Adventures extends Component {
 	state = {
@@ -18,7 +19,11 @@ class Adventures extends Component {
 	render() {
 		return (
 			<Container fluid>
-				<h1>Testing</h1>
+				<h1>Lets Go On An Adventure!</h1>
+				<div className="container col-sm-offset-2 col-sm-8 col-sm-offset-2">
+					<Well />
+				</div>
+
 			</Container>
 		);
 	}

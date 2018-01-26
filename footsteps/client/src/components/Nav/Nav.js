@@ -16,7 +16,6 @@ const Nav = () =>
 				<ul className="nav navbar-nav navbar-right">
 					<li><a href="/#">Home</a></li>
 					<li><a href="/Rules">Rules</a></li>
-					<li><a href="/Permissions">Permissions</a></li>
 					<li><a href="/Adventures">Adventures</a></li>
 					<li><a href="/Map">Map</a></li>
 					<li><a href="/Task">Task</a></li>
