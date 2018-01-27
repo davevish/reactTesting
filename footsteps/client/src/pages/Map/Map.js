@@ -18,7 +18,7 @@ class Map extends Component {
 	render() {
 		return (
 			<Container fluid>
-				<h1>Testing Map</h1>
+				<div id="map"> </div>
 			</Container>
 		);
 	}
